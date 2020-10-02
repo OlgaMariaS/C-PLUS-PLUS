@@ -1,0 +1,25 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+
+int numero = 0; //recebe numeros inteiros.2,8,-4
+char letra = "a"; // recebe uma caracter, para receber mais de um caracter: char letra [20];
+string palavras = "Olga Maria"; //recebe textos
+double reais = 3.1415; //recebe com precisão n° reais
+float real = 3,14; // recebe n° reais com menor precisão
+bool decisão = true; //verdadeiro ou falso
+
+
+//exemplo mostrando na tela
+    cout << numero << "\n" ;
+    cout << letra << "\n";
+    cout << palavras << "\n";
+    cout << reais << "\n";
+    cout << real << "\n";
+    cout << decisao << "\n";
+
+
+    return 0;
+}
